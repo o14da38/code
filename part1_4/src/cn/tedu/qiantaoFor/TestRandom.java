@@ -14,8 +14,10 @@ public class TestRandom {
 				break;
 			} else if (input > random) {
 				System.out.println("大了");
+				continue;
 			} else {
 				System.out.println("小了");
+				continue;
 			}
 		} while (true);
 	}
